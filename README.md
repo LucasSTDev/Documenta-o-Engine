@@ -11,12 +11,25 @@ Na sua primeira implementação básica é possivel que gere um erro, com isso, 
 ~~~c++
 g++ -o game .cpp ASCII_Egine/.cpp && ./game
 ~~~
-1. Explicação do comando: O "g++" Invoca o compilador gcc, "-o game" define o nome do executavel como "game"(O nome "game" pode ser o de sua preferência), *.cpp ASCII_Engine/.cpp: São os arquivos que serão compilados. O código-fonte do programa está em um arquivo chamado .cpp e também em arquivos na pasta ASCII_Engine/. <br>
+1. Explicação do comando: O "g++" Invoca o compilador gcc, "-o game" define o nome do executavel como "game"(O nome "game" pode ser o de sua preferência), *.cpp ASCII_Engine/.cpp são os arquivos que serão compilados. O código-fonte do programa está em um arquivo chamado .cpp e também em arquivos na pasta ASCII_Engine/. <br>
 
 2. Execução:
-&& ./game: Se a compilação for bem-sucedida (sem erros), o programa será executado. O && é um operador que indica que o próximo comando será executado se o anterior for executado sem erros. ./game é o comando que executa o programa compilado. <br>
+&& ./game: Se a compilação for bem-sucedida (sem erros), o programa será executado. O && é um operador que indica que o próximo comando será executado se o anterior for executado sem erros. ./game é o comando que executa o programa compilado. <br/> <br/>
 ![image](https://github.com/LucasSTDev/Documentation-Engine/assets/116840737/9af01a8c-1eb4-4b4e-a1a1-a02a7b043b86)
 
- <br>
-Você pode lidar com esses avisos/erros de duas maneiras
+Você pode lidar com esses avisos/erros de duas maneiras, uma delas é deletando os arquivos da classe sound(.cpp e o .hpp) 
+1. Primeiro você entre no diretorio onde está a Engine e execute esse comando:
+
+~~~c++ 
+rm Sound.cpp Sound.hpp
+~~~
+
+Após fazer isso sua saída será assim:
+
+![image](https://github.com/LucasSTDev/Documentation-Engine/assets/116840737/6c504d85-eccc-47d2-a831-3839389b40b4)
+
+
+
+
+
 
