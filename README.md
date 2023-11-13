@@ -24,8 +24,16 @@ Você pode lidar com esses avisos/erros de duas maneiras, uma delas é deletando
 rm Sound.cpp Sound.hpp
 ~~~
 
-Após fazer isso sua saída será assim:
+Após fazer isso você pode checar se os arquivos foram excluídos com o comando:
+~~~c++
+tree
+~~~
+![image](https://github.com/LucasSTDev/Documentation-Engine/assets/116840737/9541b40a-3262-4a91-bea6-094eb9e54c34)
 
+Tendo feito isso, execute o arquivo do seu jogo novamente:
+~~~c++
+./game
+~~~
 ![image](https://github.com/LucasSTDev/Documentation-Engine/assets/116840737/6c504d85-eccc-47d2-a831-3839389b40b4)
 
 
